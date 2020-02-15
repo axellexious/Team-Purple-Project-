@@ -1,0 +1,113 @@
+@font-face {
+    src: url(../Fonts/Nunito/Nunito-SemiBold.ttf);
+    font-family: Nunito;
+}
+
+@font-face{
+    src: url(../Fonts/ConsentNySt/Consent\ Ny\ St.ttf);
+    font-family: consent;
+}
+@font-face{
+    src: url(../Fonts/Ignorant/Ignorant.ttf);
+    font-family: ignorant;
+}
+@font-face{
+    src: url(../Fonts/RemachineScript_Personal_Use/RemachineScript_Personal_Use.ttf);
+    font-family: remachine;
+}
+@font-face{
+    src: url(../Fonts/typo_round/Typo_Round_Regular_Demo.otf);
+    font-family: typo;
+}
+@font-face{
+    src: url(../Fonts/Ubuntu-Title/Ubuntu-Title.ttf);
+    font-family: ubunto;
+}
+.logo{
+    float: left;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 4em;
+    letter-spacing: 1px;
+    clear: both;
+    color:white;
+    font-family: typo;
+}
+.menu{
+    float: right;
+    line-height: 50px;
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 20px;
+    color:white;
+    font-family: typo;
+}
+.navigation{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2.5px solid rgba(0, 0, 0, 0.5);
+
+}
+html, body{
+    padding: 0;
+    margin: 0; 
+}
+
+.first, .second, .third, .fourth, .fifth{
+    padding-left: 50%;
+    
+}
+
+h1 {
+    font-family: typo;
+    color: white;
+}
+.fourth img {
+    transform: rotate(90deg);
+}
+
+.fifth img {
+    transform: rotate(90deg);
+}
+
+.top img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    right: 500px;
+    top: 275px;
+    border: black 5px solid;
+}
+footer{
+    background: black;
+    height: 100px;
+    width: auto;
+    color: white;
+    font-family: ubunto;
+    text-align: center;
+}
+.fifth{
+    padding-bottom: 100px;
+}
+body{
+    background: url(../Pics/clientsbg.jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: fixed;
+    
+}
